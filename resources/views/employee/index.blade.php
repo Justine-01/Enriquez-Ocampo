@@ -52,7 +52,7 @@
 
                     <div class="row">
                         <div class="col-md-12 mt-3">
-                            <input type="submit" class="btn btn-info" value="Register">
+                            <input type="submit" class="btn btn-danger" value="Register">
                         </div>
 
                     </div>
@@ -85,7 +85,7 @@
                                     <td>
                                         <a href="{{ url('employee/'.$item->id.'/edit') }}" class="btn btn-success mx-2">Edit</a>
                                         
-                                        <a href="{{ url('employee/'.$item->id.'/edit') }}" class="btn btn-danger mx-1">Delete</a>
+                                        <a href="{{ url('employee/'.$item->id.'/edit') }}" class="btn btn-warning mx-1">Delete</a>
                                     </td>
                                 </tr>
                             @endforeach
@@ -120,7 +120,7 @@
     </style>
 @endpush
 ۦۦ
-cath  ィ ۦۦ
+
 @extends('layouts.app')
 
 @section('content')
