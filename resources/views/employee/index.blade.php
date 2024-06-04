@@ -52,7 +52,7 @@
 
                     <div class="row">
                         <div class="col-md-12 mt-3">
-                            <input type="submit" class="btn btn-danger" value="Register">
+                            <input type="submit" class="btn btn-success" value="Register">
                         </div>
 
                     </div>
@@ -83,9 +83,9 @@
                                     <td>{{$item->phone}}</td>
                                     <td>{{$item->dob}}</td>
                                     <td>
-                                        <a href="{{ url('employee/'.$item->id.'/edit') }}" class="btn btn-success mx-2">Edit</a>
+                                        <a href="{{ url('employee/'.$item->id.'/edit') }}" class="btn btn-info  mx-2">Edit</a>
                                         
-                                        <a href="{{ url('employee/'.$item->id.'/edit') }}" class="btn btn-warning mx-1">Delete</a>
+                                        <a href="{{ url('employee/'.$item->id.'/edit') }}" class="btn btn-info mx-1">Delete</a>
                                     </td>
                                 </tr>
                             @endforeach
