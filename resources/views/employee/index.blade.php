@@ -138,9 +138,9 @@
                                     <td>{{$item->phone}}</td>
                                     <td>{{$item->dob}}</td>
                                     <td>
-                                        <a href="{{ url('employee/'.$item->id.'/edit') }}" class="btn btn-info  mx-2 bg-green">Edit</a>
+                                        <a href="{{ url('employee/'.$item->id.'/edit') }}" class="btn btn-info  mx-2 bg-blue">Edit</a>
                                         
-                                        <a href="{{ url('employee/'.$item->id.'/edit') }}" class="btn btn-info mx-1 bg-green">Delete</a>
+                                        <a href="{{ url('employee/'.$item->id.'/edit') }}" class="btn btn-info mx-1 bg-pink">Delete</a>
                                     </td>
                                 </tr>
                             @endforeach
