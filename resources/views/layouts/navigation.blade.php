@@ -29,6 +29,15 @@
                 </a>
             </li>
 
+            <li class="nav-item">
+                <a href="{{ route('employee.index') }}" class="nav-link" >
+                    <i class="nav-icon fas fa-th"></i>
+                    <p>
+                        {{ __('BSIT 3A ') }}
+                    </p>
+                </a>
+            </li>
+
         </ul>
     </nav>
     <!-- /.sidebar-menu -->
